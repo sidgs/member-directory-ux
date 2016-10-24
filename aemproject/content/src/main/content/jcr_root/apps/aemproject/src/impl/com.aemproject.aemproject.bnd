@@ -1,0 +1,7 @@
+Export-Package: com.aemproject.aemproject
+Private-Package: com.aemproject.aemproject.impl
+Bundle-Name: Sample project aemproject
+Bundle-Description: Contains the aemproject sample bundle
+Bundle-SymbolicName: com.aemproject.aemproject
+Bundle-Version: 1.0-SNAPSHOT
+Bundle-Activator: com.aemproject.aemproject.impl.Activator
