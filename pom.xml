@@ -239,6 +239,20 @@
                 </plugins>
             </build>
         </profile>
+    <profile>
+           <id>snapshot</id>
+               <activation>
+                   <property><name>deploy-snapshot</name></property>
+               </activation>
+           <distributionManagement>
+               <snapshotRepository>
+                   <id>NexusRepositoryManager</id>
+                   <name>Snapshots</name>
+                   <url>http://repo.sidgs.office-on-the.net/</url>
+                   <uniqueVersion>false</uniqueVersion>
+               </snapshotRepository>
+           </distributionManagement>
+       </profile>
     </profiles>
   <modules>
     <module>bundle</module>
